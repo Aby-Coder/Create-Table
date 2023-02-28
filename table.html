@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTable</title>
+    
+    <!-- table style -->
+    <style>
+
+        table, th, td{
+            border: 5px solid rgb(56, 12, 167);
+            border-collapse: collapse;
+            text-align: center;
+        
+        }   
+        table {
+            width: 100%;
+        }
+        /* parentchild */
+        
+       #mytable{
+             background-color: #c51111;
+            
+        }
+        #mytable tbody{
+            background-color: #18c938;
+        }
+            
+    </style>
+</head>
+<body>
+ <h1>Table</h1>
+<ul>
+ <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+ <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+</ul>
+<hr>
+</body>
+
+<!-- table -->
+<table id="mytable">
+<thead> 
+    <tr>
+        <th>Sr.No</th>
+        <th>First Name</th>
+        <th colspan="">Last Name</th>
+        <th>Age</th>
+    </tr>
+</thead>
+<!-- //end of table header -->
+
+<tbody>
+<tr>
+    <td>1</td>
+    <td>John</td>
+    <td>Doe</td>
+    <td>50</td>
+</tr>
+
+<tr>
+    <td>2</td>
+    <td>Jane</td>
+    <td>Doe</td>
+    <td>45</td>
+</tr>
+
+<tr>
+    <td>3</td>
+    <td>John</td>
+    <td>Smith</td>
+    <td>30</td>
+
+</tbody>    
+</table>
+    
+</html>
